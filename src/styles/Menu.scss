@@ -6,6 +6,10 @@
 	border: 1px solid var(--very-light-pink);
 	border-radius: 6px;
 	padding: 20px 20px 0 20px;
+	position: absolute;
+	right: 50px;
+	top: 60px;
+	background-color: var(--white);
 }
 .Menu ul {
 	list-style: none;
@@ -33,3 +37,11 @@
 	margin-bottom: 20px;
 	display: inline-block;
 }
+
+@media (max-width: 640px) {
+	
+	.Menu {
+		display: none;
+	}
+}
+
