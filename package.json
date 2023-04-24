@@ -6,8 +6,8 @@
   "homepage":"https://josed59.github.io/react-shop/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider; webpack serve  --open",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider; webpack  --mode production"
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider; webpack serve  --open --config webpack.config.js",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; webpack  --mode production --config prod.webpack.config.js"
   },
   "keywords": [
     "react",
